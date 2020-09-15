@@ -1,0 +1,16 @@
+{
+    "name" : "new_theme",
+    "description": "learning how to make custom theme in ghost",
+    "version": "0.0.1",
+    "engines":{
+        "ghost" : ">=1.0.0"
+    },
+    "author": {
+        "name": "d777",
+        "email": "harshbeprime@gmail.com"
+    },
+    "config": {
+        "posts_per_page" : 8
+    }
+
+}

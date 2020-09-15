@@ -1,0 +1,101 @@
+{{!-- <header>
+    <h1>{{ @blog.title}}</h1>
+    <h2>{{@blog.description}}</h2>
+</header> --}}
+
+<style>
+    .navbar-light .navbar-brand:hover{
+        color: red;
+    }
+    
+    .navbar-light:hover .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show>.nav-link:hover{
+        color: red;
+    }
+
+
+    .nav-link{
+        font-size: 12px;
+        font-weight: 500;
+        white-space: nowrap;
+        letter-spacing: .5px;
+        color: var(--color-text)
+    }
+
+    .navbar-brand{
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .btn{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .navbar{
+    background-color: white;
+}
+
+    .container>.navbar .navbar-brand, .navbar>.container .navbar-brand {
+    margin-left: .75rem;
+}
+</style>
+
+ 
+<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Penang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto nav-right">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Elements <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Authors <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Tags <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Log In <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="btn btn-danger btn-sm" href="#">Sign Up <span class="sr-only">(current)</span></a>
+            </li>
+             <li class="nav-item active">
+                <a class="nav-link" href="#">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-moon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14.53 10.53a7 7 0 0 1-9.058-9.058A7.003 7.003 0 0 0 8 15a7.002 7.002 0 0 0 6.53-4.47z"/>
+                    </svg>
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">
+                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    </svg>
+                 <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+            
+           
+
+    </div>
+
+  </div>
+</nav>
